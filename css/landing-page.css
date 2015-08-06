@@ -20,10 +20,17 @@ h6 {
     font-family: "Playfair","Times New Roman",serif;
     font-weight: 400;
 }
+h3{text-align:center}
+h3, .btn{color:#8b2929;}
+a, p, address{color:#000}
+img {max-width:100%}
+.navbar a{color:#8b2929;font-weight:700;font-size:22px;}
+.topnav {font-size: 14px;}
 
-.topnav {
-    font-size: 14px; 
-}
+nav.navbar{background:#fff;}
+ul.nav{padding-top:10%;}
+.press{text-align:center}
+.btn{border:1px solid #8b2929}
 
 .lead {
     font-size: 18px;
@@ -31,18 +38,17 @@ h6 {
 }
 
 .intro-header {
-    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-top: 250px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 50px;
     text-align: center;
-    color: #f8f8f8;
-    background: url(../img/intro-bg.jpg) no-repeat center center;
+    color: #8b2929;
     background-size: cover;
 }
 
 .intro-message {
     position: relative;
-    padding-top: 20%;
-    padding-bottom: 20%;
+    /*padding-top: 10%;
+    padding-bottom: 20%;*/
 }
 
 .intro-message > h1 {
@@ -53,12 +59,12 @@ h6 {
 
 .intro-divider {
     width: 400px;
-    border-top: 1px solid #f8f8f8;
+    border-top: 1px solid #8b2929;
     border-bottom: 1px solid rgba(0,0,0,0.2);
 }
 
 .intro-message > h3 {
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    /*text-shadow: 2px 2px 3px rgba(0,0,0,0.6);*/
 }
 
 @media(max-width:767px) {
@@ -94,7 +100,6 @@ h6 {
 
 .content-section-a {
     padding: 50px 0;
-    background-color: #f8f8f8;
 }
 
 .content-section-b {
@@ -116,7 +121,6 @@ h6 {
 .banner {
     padding: 100px 0;
     color: #f8f8f8;
-    background: url(../img/banner-bg.jpg) no-repeat center center;
     background-size: cover;
 }
 
